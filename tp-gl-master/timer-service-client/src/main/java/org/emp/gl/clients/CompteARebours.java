@@ -16,7 +16,7 @@ public class CompteARebours implements TimerChangeListener {
         this.remaining = start;
         System.out.println("CompteARebours " + name + " initialized with " + start);
     }
-
+    
     public void setTimerService(TimerService timerService) {
         if (this.timerService != null) {
             this.timerService.removeTimeChangeListener(this);

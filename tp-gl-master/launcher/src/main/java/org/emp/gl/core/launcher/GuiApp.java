@@ -31,6 +31,10 @@ public class GuiApp {
         hp2.setTimerService(timerService);
         frame.add(hp2);
 
+        HorlogePanel hp3 = new HorlogePanel("GUI-3");
+        hp3.setTimerService(timerService);
+        frame.add(hp3);
+
         frame.pack();
         frame.setSize(300, 150);
         frame.setLocationRelativeTo(null);
